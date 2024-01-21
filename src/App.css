@@ -12,10 +12,13 @@ img{
 .main{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   
 }
 .imgs{
   display: flex;
+  justify-content: space-evenly;
 }
 .bottombar{
  display: flex;
@@ -26,7 +29,6 @@ img{
 .icon{
   font-size: 3rem;
   margin: 2rem;
-  margin-top: 10rem;
   cursor: pointer;
 }
 polyline{
@@ -43,8 +45,6 @@ polyline{
 
 body{
   display: flex;
-  -webkit-user-select: none;
-  -ms-user-select:none;
   background-color: #f3e6ff;
 }
 h1{
@@ -52,3 +52,4 @@ h1{
   text-align: center;
   color: #36454F;
 }
+
