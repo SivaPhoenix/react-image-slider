@@ -55,3 +55,17 @@ h1{
   color: #36454F;
 }
 
+@media (max-width: 600px) {
+  img {
+    max-width: 100%;
+  }
+
+  .imgs,
+  .bottombar {
+    flex-direction: row; /* Adjust layout for small screens */
+  }
+
+  .icon {
+    margin: 0.5rem; /* Adjust margin for small screens */
+  }
+}
