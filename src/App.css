@@ -67,10 +67,10 @@ h1{
 
   .imgs,
   .bottombar {
-    flex-direction: row; /* Adjust layout for small screens */
+    flex-direction: row; 
   }
 
   .icon {
-    margin: 1rem; /* Adjust margin for small screens */
+    margin: 0.5rem; 
   }
 }
