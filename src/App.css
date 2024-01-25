@@ -49,7 +49,6 @@ body{
   background-repeat: no-repeat;
   display: flex;
   margin: 3rem;
-  z-index: -1;
   /* background-color: #f3e6ff; */
 }
 h1{
