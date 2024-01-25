@@ -61,7 +61,7 @@ h1{
 
 @media (max-width: 600px) {
   img {
-    max-width: 100%;
+    max-width: 95%;
     /* max-height: 80%; */
   }
 
@@ -72,6 +72,6 @@ h1{
 
   .icon {
     margin: 0.5rem; 
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
