@@ -48,8 +48,8 @@ body{
   background-image: url('./assets/home-bg.jpg');
   background-repeat: no-repeat;
   display: flex;
-  /* margin: 3rem; */
-  /* z-index: -1; */
+  margin: 3rem;
+  z-index: -1;
   /* background-color: #f3e6ff; */
 }
 h1{
@@ -61,7 +61,7 @@ h1{
 
 @media (max-width: 600px) {
   img {
-    max-width: 80%;
+    max-width: 100%;
     /* max-height: 80%; */
   }
 
@@ -71,7 +71,7 @@ h1{
   }
 
   .icon {
-    margin: 0.8rem; 
+    margin: 0.5rem; 
     font-size: 2rem;
   }
 }
