@@ -21,7 +21,7 @@ function Slider(props) {
         </div>
     <div className='bottombar'>
         {url.map((url,i)=>(<div onClick={()=>
-     {setIndex(i)}} key={i} className={`bar ${index==i?'barWhite':''}`}>_</div>
+     {setIndex(i)}} key={i} className={`bar ${index==i?'barWhite':''}`}>__</div>
      ))}
     </div>
     </div>

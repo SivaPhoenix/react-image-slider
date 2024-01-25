@@ -28,7 +28,7 @@ img{
  cursor: pointer;
 }
 .icon{
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin: 2rem;
   cursor: pointer;
 }
@@ -45,19 +45,24 @@ polyline{
 }
 
 body{
+  background-image: url('./assets/home-bg.jpg');
+  background-repeat: no-repeat;
   display: flex;
-  background-color: #f3e6ff;
+  margin: 3rem;
+  z-index: -1;
+  /* background-color: #f3e6ff; */
 }
 h1{
   font-family: kanit;
   justify-content: center;
   text-align: center;
-  color: #36454F;
+  color: #ecf2f5;
 }
 
 @media (max-width: 600px) {
   img {
-    max-width: 100%;
+    max-width: 80%;
+    max-height: 80%;
   }
 
   .imgs,
@@ -66,6 +71,6 @@ h1{
   }
 
   .icon {
-    margin: 0.5rem; /* Adjust margin for small screens */
+    margin: 1rem; /* Adjust margin for small screens */
   }
 }
