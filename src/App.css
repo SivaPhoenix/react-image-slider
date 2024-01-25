@@ -61,7 +61,7 @@ h1{
 
 @media (max-width: 600px) {
   img {
-    max-width: 100%;
+    max-width: 80%;
     /* max-height: 80%; */
   }
 
